@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="search-module">
+    <test name ="search-test-java">
+        <parameter name ="keyword" value="java"/>
+        <classes>
+            <class name ="searchmodule.test.SearchTest"/>
+        </classes>
+    </test>
+    <test name ="search-test-python">
+        <parameter name ="keyword" value="python"/>
+        <classes>
+            <class name ="searchmodule.test.SearchTest"/>
+        </classes>
+    </test>
+</suite>
