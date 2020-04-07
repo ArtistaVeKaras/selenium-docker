@@ -16,6 +16,7 @@ public class SearchTest extends BaseTest {
         searchPage.doSearch(keyword);
         searchPage.goToVideoLink();
         int size = searchPage.getResults();
+
         Assert.assertTrue(size > 0);
     }
 }
